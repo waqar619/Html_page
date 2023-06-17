@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatibel" content="ie=edge">
+    <title>Forms</title>
+    
+</head>
+  <h2>This is HTML forms </h2>
+  <form action="backend.php">
+    <label for="name">Name </label>
+    <div>
+        <input type="text" name="myName" id="name">
+    </div>
+    <br>
+    <label for="role">Role </label>
+
+    <div>
+        <input type="text" name="myRole" id="role">
+    </div>
+    <br>
+
+    <label for="emailid">Email </label>
+    <div>
+         <input type="email" name="myEmail" id="emailid">
+    </div>
+    <br>
+
+    <br>
+
+    <label for="dateid">Date </label>
+    <div>
+        <input type="date" name="myDate" id="dateid">
+    </div>
+    <br>
+
+    <label for="bonusid">Bonus </label>
+    <div>
+        <input type="number" name="myBonus" id="bonusid" >
+    </div>
+    <br>
+    <div>
+        Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+    </div>
+    <br>
+
+    <label for="genderid"> Gender </label>
+    <div>
+        Male<input type="radio" name="myGender" id="genderid" > Female<input type="radio" name="myGender" id="genderid" >
+        Others<input type="radio" name="myGender" id="genderid">
+    </div>
+    <br>
+    <div>
+        
+        Write about yourself:<br> <textarea name="myType"  cols="50" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="carid">Car</label>
+        <select name="myCar" id="carid" >
+            <option value="sw">Swift</option>
+            <option value="bal">Baleno</option>
+            <option value="br">Breeza</option>
+            <option value="hd">Verna</option>
+        </select>
+        
+    </div>
+    <br>
+    
+    
+    <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </div>
+    
+</form>
+  
+
+</html>
